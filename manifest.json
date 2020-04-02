@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "carolineHackaway",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://www.iamcarolinecalloway.com/*"],
+      "run_at": "document_end",
+      "js": ["jquery.min.js", "content.js"]
+    }
+  ]
+}
